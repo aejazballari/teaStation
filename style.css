@@ -111,17 +111,13 @@ i {
 }
 
 .teaPot {
-  border: 1rem solid rgb(105, 143, 63);
-  border-radius: 2rem;
   margin: 8rem 0rem 3rem 0rem;
-  object-fit: cover;
 }
 
 .teaPot img {
-  width: 28rem;
-  position: relative;
-  z-index: -1;
-  top: 1px;
+  width: 30rem;
+  border: 1rem solid rgb(105, 143, 63);
+  border-radius: 2rem;
 }
 
 span {
@@ -167,12 +163,16 @@ span {
 
 .checkOut {
   background-color: rgb(58, 62, 59);
-  padding: 1rem 3rem;
+  padding: 10rem 3rem;
 }
 
 .checkOut img {
   width: 30rem;
   border-radius: 7px;
+}
+
+.product {
+  padding-top: 8rem;
 }
 
 .checkOut button {
@@ -191,5 +191,34 @@ span {
   height: 64px;
   border: 3px solid rgb(105, 143, 63);
   background-color: transparent;
-  margin: 3rem 0rem 6rem 0rem;
+  margin: 3rem 0rem;
+}
+
+.checkOut h3 {
+  color: white;
+  font-size: 3.2rem;
+  font-weight: 600;
+  padding-bottom: 3rem;
+}
+
+.description {
+  color: white;
+  font-size: 1.7rem;
+  line-height: 1.5;
+  font-weight: 400;
+}
+
+.checkOut h4 {
+  color: white;
+  font-size: 1.6rem;
+  font-weight: 600;
+  letter-spacing: 1rem;
+  padding: 3rem 0rem;
+}
+
+.dollar {
+  color: rgb(105, 143, 63);
+  font-size: 2rem;
+  letter-spacing: 5px;
+  font-weight: 600;
 }
