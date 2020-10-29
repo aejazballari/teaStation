@@ -12,19 +12,19 @@ header {
   height: 100vh;
   display: block;
   text-align: center;
-  background-image: url(.//images/main-bcg.jpeg);
-  background-attachment: fixed;
-  background-repeat: no-repeat;
-  background-position: center/cover;
-  position: relative;
+  /* background-image: url(.//images/main-bcg.jpeg); */
+  /* background-attachment: fixed; */
+  /* background-repeat: no-repeat; */
+  /* background-position: center/cover; */
+  /* position: relative; */
 
   /* position: absolute;
   z-index: -1;
   filter: brightness(40%);
   left: -320px;
   width: auto; */
-  /* background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
-    url(../images/main-bcg.jpeg) center/cover no-repeat fixed; */
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url(../images/main-bcg.jpeg) center/cover no-repeat fixed;
 }
 
 header div {
