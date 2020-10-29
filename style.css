@@ -12,7 +12,6 @@ header {
   height: 100vh;
   display: block;
   text-align: center;
-  background: b;
   background-image: url(.//images/main-bcg.jpeg);
   background-attachment: fixed;
   background-repeat: no-repeat;
@@ -105,4 +104,92 @@ i {
   font-size: 1.6rem;
   color: rgb(56, 55, 55);
   line-height: 1.5;
+}
+
+.about {
+  margin: 1rem 3rem;
+}
+
+.teaPot {
+  border: 1rem solid rgb(105, 143, 63);
+  border-radius: 2rem;
+  margin: 8rem 0rem 3rem 0rem;
+  object-fit: cover;
+}
+
+.teaPot img {
+  width: 28rem;
+  position: relative;
+  z-index: -1;
+  top: 1px;
+}
+
+span {
+  color: rgb(105, 143, 63);
+  font-size: 3.1rem;
+  display: block;
+  font-weight: bold;
+  margin-bottom: 1rem;
+  letter-spacing: 0.3rem;
+}
+
+.about h3 {
+  font-size: 3.2rem;
+  font-weight: 600;
+  padding-bottom: 3rem;
+}
+
+.about p {
+  font-size: 1.7rem;
+  line-height: 1.5;
+  color: rgb(83, 81, 81);
+  padding-bottom: 2rem;
+}
+
+.learn button {
+  background-color: rgb(105, 143, 63);
+  width: 140.3px;
+  height: 50px;
+  color: rgb(58, 62, 59);
+  font-size: 1.5rem;
+  border: none;
+  margin: 3.5px 4px;
+  font-weight: 600;
+}
+
+.learn {
+  width: 153.5px;
+  height: 62.5px;
+  border: 3px solid rgb(105, 143, 63);
+  background-color: transparent;
+  margin: 3rem 0rem 6rem 0rem;
+}
+
+.checkOut {
+  background-color: rgb(58, 62, 59);
+  padding: 1rem 3rem;
+}
+
+.checkOut img {
+  width: 30rem;
+  border-radius: 7px;
+}
+
+.checkOut button {
+  background-color: rgb(105, 143, 63);
+  width: 135.5px;
+  height: 50px;
+  color: rgb(58, 62, 59);
+  font-size: 1.5rem;
+  border: none;
+  margin: 3.5px 4px;
+  font-weight: 600;
+}
+
+.inventory {
+  width: 150px;
+  height: 64px;
+  border: 3px solid rgb(105, 143, 63);
+  background-color: transparent;
+  margin: 3rem 0rem 6rem 0rem;
 }
