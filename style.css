@@ -12,17 +12,6 @@ header {
   height: 100vh;
   display: block;
   text-align: center;
-  /* background-image: url(.//images/main-bcg.jpeg); */
-  /* background-attachment: fixed; */
-  /* background-repeat: no-repeat; */
-  /* background-position: center/cover; */
-  /* position: relative; */
-
-  /* position: absolute;
-  z-index: -1;
-  filter: brightness(40%);
-  left: -320px;
-  width: auto; */
   background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
     url(../images/main-bcg.jpeg) center/cover no-repeat fixed;
 }
@@ -33,6 +22,9 @@ header div {
   height: 73.5px;
   border: 3px solid rgb(105, 143, 63);
   background-color: transparent;
+  animation-name: zooming;
+  animation-duration: 5s;
+  animation-timing-function: ease-in-out;
 }
 
 header button {
@@ -58,12 +50,18 @@ header h3 {
   color: white;
   letter-spacing: 5px;
   margin: 5rem auto;
+  animation-name: left-to-right;
+  animation-duration: 5s;
+  animation-timing-function: ease-in-out;
 }
 
 h2 {
   color: rgb(105, 143, 63);
   font-size: 3.5rem;
   font-family: "Rouge Script", cursive;
+  animation-name: right-to-left;
+  animation-duration: 5s;
+  animation-timing-function: ease-in-out;
 }
 
 .section-divider {
@@ -323,4 +321,45 @@ footer p {
   letter-spacing: 0.8rem;
   color: white;
   font-weight: 100;
+}
+
+@keyframes right-to-left {
+  0% {
+    transform: translateX(1000px);
+  }
+  50% {
+    transform: translateX(-200px);
+  }
+  75% {
+    transform: translateX(50px);
+  }
+  100% {
+    transform: translateX(0px);
+  }
+}
+
+@keyframes left-to-right {
+  0% {
+    transform: translateX(-1000px);
+  }
+  50% {
+    transform: translateX(200px);
+  }
+  75% {
+    transform: translateX(-50px);
+  }
+  100% {
+    transform: translateX(0px);
+  }
+}
+
+@keyframes zooming {
+  0% {
+    transform: scale(2);
+    opacity: 0;
+  }
+  100% {
+    transform: scale(1);
+    opacity: 1;
+  }
 }
